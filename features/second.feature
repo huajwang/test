@@ -13,3 +13,5 @@ Feature: Fight or flight
     Given the ninja has a third level black-belt
      When attacked by Chuck Norris
      Then the ninja should run for his life
+	   And fall off a cliff
+      

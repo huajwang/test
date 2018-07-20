@@ -19,3 +19,7 @@ def step_impl_2(context):
 @then('the ninja should run for his life')
 def step_impl_2(context):
     assert context.failed is False
+
+@then('fall off a cliff')
+def step_impl_3(context):
+    assert context.failed is False
